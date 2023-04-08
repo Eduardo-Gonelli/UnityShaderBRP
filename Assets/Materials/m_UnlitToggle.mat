@@ -7,9 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: m_Cube_Unlit
-  m_Shader: {fileID: 4800000, guid: 7b34697a7ae778d4184d8f110273d8c5, type: 3}
-  m_ValidKeywords: []
+  m_Name: m_UnlitToggle
+  m_Shader: {fileID: 4800000, guid: 3cd286584bf83b94880413b8d61a72c3, type: 3}
+  m_ValidKeywords:
+  - _ENABLE_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -41,7 +42,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: af24c542434a025448222d576f61a956, type: 3}
+        m_Texture: {fileID: 2800000, guid: 183f7b7549219ab47becb461a16df882, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -59,11 +60,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
-    - _Cid: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Factor: 0.3
+    - _Enable: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -72,12 +72,11 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
-    - _Specular: 0.3
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.17866677, g: 0.42804688, b: 0.5188679, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

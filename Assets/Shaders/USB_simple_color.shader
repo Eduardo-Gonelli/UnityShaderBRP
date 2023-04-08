@@ -5,6 +5,9 @@ Shader "Unlit/USB_simple_color"
 	{
 		// Define a textura como uma propriedade do shader, que pode ser alterada no material
 		_MainTex("Texture", 2D) = "white" {}
+		_Specular("Specular", Range(0.0, 1.1)) = 0.3
+		_Factor("Color Factor", Float) = 0.3
+		_Cid("Color id", Int) = 2
 	}
 		SubShader
 	{
