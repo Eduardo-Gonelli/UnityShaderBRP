@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: m_UnlitToggle
+  m_Name: m_Unlit_Toggle
   m_Shader: {fileID: 4800000, guid: 3cd286584bf83b94880413b8d61a72c3, type: 3}
   m_ValidKeywords:
   - _ENABLE_ON

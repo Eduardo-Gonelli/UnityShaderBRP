@@ -1,4 +1,4 @@
-Shader "Custom/Unlit_ExVariaveis"
+Shader "Aula09/Unlit_Variaveis"
 {
     Properties
     {

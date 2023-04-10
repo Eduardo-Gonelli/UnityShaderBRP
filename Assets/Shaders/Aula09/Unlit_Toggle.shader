@@ -1,5 +1,5 @@
 // este shader permite ligar ou desligar a cor extra
-Shader "Custom/Unlit_ToggleExemplo"
+Shader "Aula09/Unlit_Toggle"
 {
 	Properties
 	{
