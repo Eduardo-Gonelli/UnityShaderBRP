@@ -90,10 +90,10 @@ Material:
     - _Mode: 0
     - _NormalStrength: 0
     - _OcclusionStrength: 1
-    - _OutlineDot: 0.54
-    - _OutlineDot2: 0.5
-    - _OutlineExtrusion: 0.1
-    - _OutlineSpeed: 5.04
+    - _OutlineDot: -0.48
+    - _OutlineDot2: 0.48
+    - _OutlineExtrusion: 0.04
+    - _OutlineSpeed: 3.25
     - _Parallax: 0.02
     - _ShadowTexRotation: 169
     - _ShadowTexSize: 1.2
@@ -104,7 +104,7 @@ Material:
     - _SpecularSize: 0
     - _SrcBlend: 1
     - _StepAmount: 3
-    - _StepWidth: 0.12
+    - _StepWidth: 0.1
     - _TextureEmissionIntensity: 0
     - _UVSec: 0
     - _UseAnimation: 0
@@ -116,6 +116,6 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 1, g: 0, b: 0, a: 1}
     - _ShadowTint: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
-    - _SourcePos: {r: 0, g: 0, b: 0, a: 0}
+    - _SourcePos: {r: 1.4, g: -0.89, b: -0.56, a: 0.25}
     - _SpecularTint: {r: 1, g: 0.15566039, b: 0.15566039, a: 1}
   m_BuildTextureStacks: []
