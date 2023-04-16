@@ -14,10 +14,6 @@ Shader "Custom/Toon/ExemploToon"
         _TextureEmissionIntensity("Texture Emission Intensity", float) = 1
         [HDR] _Emission("Emission", color) = (0 ,0 ,0 , 1)
 
-
-
-
-
         [Space(20)]
         [Header(Lighting Parameters)]
         [NoScaleOffset] _ShadowTex("Shadow Texture", 2D) = "white" {}
@@ -38,20 +34,11 @@ Shader "Custom/Toon/ExemploToon"
         _SpecularSize("Specular Size", Range(0, 1)) = 0.1
         _SpecularFalloff("Specular Falloff", Range(0, 2)) = 1
 
-
-
-
-
-
         [Space(20)]
         [Header(Dithering Parameters)]
         [NoScaleOffset] _DitherPattern("Dithering Pattern", 2D) = "white" {}
         _MinDistance("Minimum Fade Distance", Float) = 0
         _MaxDistance("Maximum Fade Distance", Float) = 1
-
-
-
-
 
         [Space(20)]
         [Header(Outline Parameters)]
@@ -65,7 +52,6 @@ Shader "Custom/Toon/ExemploToon"
         _OutlineSpeed("Outline Dot Speed", float) = 50.0
 
         _SourcePos("Source Position", vector) = (0, 0, 0, 0)
-
     }
         SubShader
         {
