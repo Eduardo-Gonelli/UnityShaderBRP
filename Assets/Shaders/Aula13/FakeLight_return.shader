@@ -23,7 +23,7 @@ Shader "Aula13/FakeLight_return"
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
                 float2 uv : TEXCOORD0;
-            };
+            };        
 
             struct v2f
             {
