@@ -49,7 +49,6 @@ Shader "Aula16/Unlit_ShadowMap"
             Name "Shadow Map Texture"
             Tags
             {
-                "RenderType"="Opaque"
                 "LightMode"="ForwardBase"
             }
             
@@ -63,12 +62,14 @@ Shader "Aula16/Unlit_ShadowMap"
             struct appdata
             {
                 float4 vertex : POSITION;
+                //float2 uv : TEXCOORD0;
                 float2 texcoord : TEXCOORD0;
             };
 
             struct v2f
             {
-                float2 uv : TEXCOORD0;                
+                float2 uv : TEXCOORD0;   
+                //float4 vertex : SV_POSITION;
                 float4 pos : SV_POSITION;
                 SHADOW_COORDS(1)
             };
@@ -81,7 +82,7 @@ Shader "Aula16/Unlit_ShadowMap"
                 v2f o;
                 o.pos = UnityObjectToClipPos(v.vertex);
                 o.uv = v.texcoord;
-                TRANSFER_SHADOW(o)
+                TRANSFER_SHADOW(o)  // sem ponto e vírgula
                 
                 return o;
             }
