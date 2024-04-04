@@ -1,5 +1,5 @@
 // Este shader foi extraído do seguinte endereço:
-// https://forum.unity.com/threads/solved-shader-how-to-add-texture-to-shadow.829170/ 
+// https://forum.unity.com/threads/solved-shader-how-to-add-texture-to-shadow.829170/
 
 Shader "2023/Custom/Toon/ExemploToon"
 {
