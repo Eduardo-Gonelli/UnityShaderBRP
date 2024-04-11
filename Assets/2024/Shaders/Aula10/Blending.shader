@@ -9,6 +9,8 @@ Shader "2024/Blending" {
         Tags {"Queue" = "Transparent" "RenderType" = "Transparent"}
 
         Pass {
+            // A linha abaixo aplica a fórmula
+            // B = SourceFactor * SourceValue [OP] DestinationFactor * DestinationValue
             Blend[_SrcBlend][_DstBlend]
 
             CGPROGRAM
