@@ -64,4 +64,16 @@ Shaders do tipo Unlit não interagem naturalmente com a iluminação da cena. Qu
 #### Shaders na cena
 - FakeLight_return
 - FakeLight_void
-
+### 10_UnlitToon
+Nesta cena é exemplificada a mudança gradual de uma cor para gerar um efeito "cartunizado", podendo configurar a quantidade de "Sections" e o gama das cores.
+#### Shaders na cena
+Unlit_Floor_Toon
+### 11_ToonGlitch
+Na cena 11 temos exemplos do shader Toon, extraído do fórum da Unity (https://forum.unity.com/threads/solved-shader-how-to-add-texture-to-shadow.829170/), que apresenta um shader com "Outline" e possibilidade de customização das sombras do objeto.
+#### Shaders na cena
+- m_SFS_Flitch
+- ToonHashurado
+### 12_Image_Effect
+A cena 12 aplica um Image Effect na câmera para alterar a forma como a cena é visualizada. Utiliza a função Graphics.Blit (ver script ExemploSlidesIE na pasta Scripts) que captura a renderização atual da cena, insere um efeito e depois devolve a cena com o efeito aplicado.
+#### Shaders na cena
+- ExemploSlidesIE
