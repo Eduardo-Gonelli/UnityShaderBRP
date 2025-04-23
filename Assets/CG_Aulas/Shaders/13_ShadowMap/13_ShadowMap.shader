@@ -33,10 +33,7 @@ Shader "CG_Aulas/13_ShadowMap"
                 o.diff.a = 1;
                 return o;
             }
-            fixed4 frag (v2f i) : SV_Target
-            {
-                return i.diff;
-            }
+            fixed4 frag (v2f i) : SV_Target { return i.diff; }
             ENDCG
         }
 
