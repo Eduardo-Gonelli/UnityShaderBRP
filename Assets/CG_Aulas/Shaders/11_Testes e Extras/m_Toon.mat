@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: m_Toon
   m_Shader: {fileID: 4800000, guid: f96cbb0686080984db6bd488f64e5802, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _COLORONLY_ON
@@ -20,6 +22,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -68,7 +71,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowTex:
-        m_Texture: {fileID: 2800000, guid: 362505d22c23f944d83f8e1239171667, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9051b739c8839364a800f9eb44619fc4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -90,12 +93,12 @@ Material:
     - _Mode: 0
     - _NormalStrength: 0
     - _OcclusionStrength: 1
-    - _OutlineDot: -0.48
+    - _OutlineDot: -0.56
     - _OutlineDot2: 0.48
-    - _OutlineExtrusion: 0.04
+    - _OutlineExtrusion: 0.06
     - _OutlineSpeed: 3.25
     - _Parallax: 0.02
-    - _ShadowTexRotation: 169
+    - _ShadowTexRotation: 172
     - _ShadowTexSize: 1.2
     - _ShadowTexTransparencyCoef: 1
     - _SmoothnessTextureChannel: 0
@@ -103,8 +106,8 @@ Material:
     - _SpecularHighlights: 1
     - _SpecularSize: 0
     - _SrcBlend: 1
-    - _StepAmount: 3
-    - _StepWidth: 0.1
+    - _StepAmount: 1
+    - _StepWidth: 0
     - _TextureEmissionIntensity: 0
     - _UVSec: 0
     - _UseAnimation: 0
@@ -114,8 +117,9 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 1, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0.06132078, g: 0.38219735, b: 1, a: 1}
     - _ShadowTint: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
     - _SourcePos: {r: 1.4, g: -0.89, b: -0.56, a: 0.25}
     - _SpecularTint: {r: 1, g: 0.15566039, b: 0.15566039, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -4,6 +4,7 @@ Shader "CG_Aulas/03/ToggleColor"
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
+        _SecondTex ("Texture", 2D) = "white" {}
         _Color ("Color", Color) = (1,1,1,1)
         // declara o drawer Toggle
         [Toggle] _Enable("Enable ?", Float) = 0
@@ -40,6 +41,7 @@ Shader "CG_Aulas/03/ToggleColor"
             sampler2D _MainTex;
             float4 _MainTex_ST;
             fixed4 _Color;
+            sampler2D _SecondTex;
 
             v2f vert (appdata v)
             {
@@ -54,12 +56,13 @@ Shader "CG_Aulas/03/ToggleColor"
             {
                 // sample the texture
                 fixed4 col = tex2D(_MainTex, i.uv);
+                fixed4 col2 = tex2D(_SecondTex, i.uv)
                 // gera a condicional
                 UNITY_APPLY_FOG(i.fogCoord, col);
                 #if _ENABLE_ON
-                    return col * _Color;
+                    return col * col2;
                 #else
-                    return col;
+                    return col2;
                 #endif                
             }
             ENDCG

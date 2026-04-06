@@ -5,8 +5,10 @@ Shader "CG_Aulas/02/PowerSliderIntRange"
     // do brilho, aumentando ou diminuindo dentro de um range específico
     Properties
     {
-        [PowerSlider(3.0)] _Brightness("Brightness", Range(0.01, 1.0)) = 0.08
+        [PowerSlider(3.0)] _Brightness("Brightness", Range(0.1, 1.0)) = 0.08
+
         [IntRange] _Samples("Samples", Range(0, 255)) = 100
+
         _MainTex("Texture", 2D) = "white" {}
     }
         SubShader
